@@ -1,4 +1,5 @@
-from Crypto.Util.number import inverse
+from Crypto.Util.number import inverse 
+#modular multiplicative inverse
 
 def common_modulus_attack(ciphertext1, ciphertext2, exponent1, exponent2, modulus):
     gcd, s, t = extended_gcd(exponent1, exponent2)
